@@ -9,6 +9,7 @@ class BooksController < ApplicationController
   end
 
   def new
+    
   end
 
   def edit
