@@ -1,0 +1,98 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header {
+	height: 100px;
+    width: auto;
+}
+h1 {
+	margin: 25px auto 25px 40px;
+}
+.book-table{
+	margin-left: 40px;
+	margin-bottom: 25px;
+}
+td[class*="show_"] {
+    padding: auto 20px;
+	text-align: center;
+}
+.edit_#{book.id}{
+	padding: auto 20px;
+	text-align: center;
+}
+.destroy_#{book.id}{
+	padding: auto 40px;
+	text-align: center;
+}
+.new-book-box{
+	margin-left: 40px;
+}
+.new-book-flash{
+	height: 80px;
+}
+.new-book-flash-text{
+	margin: 60px auto 60px 60px;
+}
+.flash-text-box{
+	height: 60px;
+}
+.flash-text{
+	margin-top: 50px;
+	margin-left:60px;
+}
+.show-title-box{
+	height: 60px;
+}
+.show-title-text{
+	margin-left: 60px;
+	margin-top: 50px;
+}
+.show-title{
+	font-weight: 600;
+}
+.show-body-box{
+	height: 60px;
+}
+.show-body-text{
+	margin-left: 60px;
+}
+.show-body{
+	font-weight: 600;
+}
+.header-edit{
+	margin: 40px auto 0 40px;
+}
+.edit-title{
+	margin-left: 0;
+}
+.edit-book-flash{
+	height: 80px;
+}
+.edit-book-flash-text{
+	margin: 60px auto 60px 60px;
+}
