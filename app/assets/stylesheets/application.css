@@ -45,14 +45,9 @@ h1 {
 	margin-bottom: 25px;
 }
 .list-box{
-    padding: auto 20px;
+    margin: auto 5px;
 	text-align: center;
 }
-.list-box-last{
-    padding: auto 40px;
-	text-align: center;
-}
-
 .new-book-box{
 	margin-left: 40px;
 }
@@ -87,6 +82,9 @@ h1 {
 }
 .show-body{
 	font-weight: 600;
+}
+.show-link{
+	margin-left: 60px;
 }
 .header-edit{
 	margin: 40px auto 0 40px;
